@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shotcut icon" href="assets/logo-P.png">
+</head>
+<body>
+    <main class="main">
+        <header class="cabecalho">
+            <img src="assets/logo-P.png" alt="logo p">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+    
+    <div class="container__input">
+        <div class="input">
+            <textarea id="input__texto" placeholder="Digite seu texto..."></textarea>
+            <p>ATENÇÃO: Apenas letras maiúsculas e sem acento.</p>
+        </div>
+
+    <div id="output">
+        <img src="assets/logo-P.png" alt="logo p">
+        <h2>Sua mensagem aparecerá aqui!</h2>
+        <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+    </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container__btn">
+            <button onclick="criptografar()" class= "btn__criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class= "btn__descriptografar">Descriptografar</button>
+        </div>
+    </div>
+
+    </main>
+
+    <footer class="rodape">Desenvolvido por Pedro Augusto</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
